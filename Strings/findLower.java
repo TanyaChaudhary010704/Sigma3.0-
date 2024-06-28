@@ -6,7 +6,13 @@ public class findLower {
     System.out.println(findLowerVowelsCount(str));
   }
 
-  // public static int findLowerVowelsCount(String str) {
-    
-  // }
+  public static int findLowerVowelsCount(String str) {
+    int vowelsCount = 0;
+    for (char ch : str.toCharArray()) {
+      if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+        vowelsCount++;
+      }
+    }
+    return vowelsCount;
+  }
 }
