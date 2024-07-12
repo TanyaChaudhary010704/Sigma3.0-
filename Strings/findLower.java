@@ -9,8 +9,10 @@ public class findLower {
   public static int findLowerVowelsCount(String str) {
     int vowelsCount = 0;
     for (char ch : str.toCharArray()) {
-      if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-        vowelsCount++;
+      if (Character.isLowerCase(ch) == true) {
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+          vowelsCount++;
+        }
       }
     }
     return vowelsCount;
