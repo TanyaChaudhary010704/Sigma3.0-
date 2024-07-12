@@ -1,3 +1,4 @@
+package Arrays;
 //kedans algorithm
 public class MaxSubarraySum3 {
   public static void main(String[] args) {

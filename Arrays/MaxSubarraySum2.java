@@ -1,3 +1,4 @@
+package Arrays;
 //prefix sum approach
 // prefix[end]-prefix[start-1];
 public class MaxSubarraySum2 {

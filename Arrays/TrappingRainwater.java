@@ -1,3 +1,4 @@
+package Arrays;
 //Auxiliary Arrays
 //height greater than or equal to zero
 //width of bar is 1

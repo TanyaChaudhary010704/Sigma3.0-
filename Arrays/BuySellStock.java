@@ -1,3 +1,4 @@
+package Arrays;
 public class BuySellStock {
   public static int buySellStock(int[] prices) {
     int bp = Integer.MAX_VALUE;
