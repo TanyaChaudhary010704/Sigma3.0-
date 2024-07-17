@@ -14,6 +14,6 @@ class BankAccount {
   private String password;
 
   public void setPassword(String pwd) {
-    password = pwd;
+    this.password = pwd;
   }
 }
