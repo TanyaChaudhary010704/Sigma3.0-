@@ -4,7 +4,7 @@ package OOPs;
 public class _10_ {
   public static void main(String[] args) {
     Student s1 = new Student();
-    s1.school = "AMU";
+    Student.school = "AMU";
     Student s2 = new Student();
     System.out.println(s2.school);
   }
