@@ -1,4 +1,4 @@
-package OOPs;
+//package OOPs;
 
 public class _02_ {
   public static void main(String[] args) {

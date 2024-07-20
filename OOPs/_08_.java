@@ -1,4 +1,4 @@
-package OOPs;
+//package OOPs;
 //Abstract class
 public class _08_ {
   public static void main(String[] args) {

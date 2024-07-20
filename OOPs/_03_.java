@@ -1,4 +1,4 @@
-package OOPs;
+//package OOPs;
 //getter and setter
 public class _03_ {
   public static void main(String[] args) {

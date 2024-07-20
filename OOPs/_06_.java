@@ -1,4 +1,4 @@
-package OOPs;
+//package OOPs;
 //method overloading
 public class _06_ {
   public static void main(String[] args) {

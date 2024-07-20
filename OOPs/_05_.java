@@ -1,4 +1,4 @@
-package OOPs;
+//package OOPs;
 
 //inheritance
 public class _05_ {

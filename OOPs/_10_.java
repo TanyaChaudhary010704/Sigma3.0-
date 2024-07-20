@@ -1,4 +1,4 @@
-package OOPs;
+//package OOPs;
 //Static keyword in java
 //Static variable
 public class _10_ {
