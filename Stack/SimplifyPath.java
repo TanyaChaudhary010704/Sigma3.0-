@@ -6,7 +6,9 @@ public class SimplifyPath {
     String res = "";
     res += "/";
     int len = A.length();
+
     for (int i = 0; i < len; i++) {
+      //we can use split method also 
       String dir = "";
       while (i < len && A.charAt(i) == '/') {
         i++;
@@ -26,6 +28,7 @@ public class SimplifyPath {
         stack.push(dir);
       }
     }
+
     Stack<String> st1 = new Stack<String>();
     while (!stack.isEmpty()) {
       st1.push(stack.pop());
