@@ -41,6 +41,14 @@ public class BTfunctions {
     return lc + rc + 1;
   }
   
+  public static int sumNodes(Node root) {
+    if (root == null)
+      return 0;
+    int leftSum = sumNodes(root.left);
+    int rightSum = sumNodes(root.right);
+    return leftSum + rightSum + root.data;
+  }
+  
   public static int diameter(Node root) {
     if (root == null) {
       return 0;
@@ -55,7 +63,7 @@ public class BTfunctions {
   
   public static Info diameter2(Node root) {
     if (root == null) {
-      return new Info(0,0);
+      return new Info(0, 0);
     }
     Info leftInfo = diameter2(root.left);
     Info rightInfo = diameter2(root.right);
@@ -63,6 +71,7 @@ public class BTfunctions {
     int h = Math.max(leftInfo.h, rightInfo.h) + 1;
     return new Info(d, h);
   }
+  
   public static void main(String[] args) {
     Node root = new Node(1);
     root.left = new Node(2);
@@ -74,6 +83,7 @@ public class BTfunctions {
     System.out.println(height(root));
     System.out.println(countNodes(root));
     System.out.println(diameter2(root).d);
+    System.out.println(sumNodes(root));
   }
 }
 
